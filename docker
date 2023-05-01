@@ -7,6 +7,7 @@ pipeline {
       steps {
         sh 'node --version'
       }
+    }  
     stage('teste'){
       steps {
         sh 'whoami'
@@ -14,5 +15,4 @@ pipeline {
       }
     }
   }
-}
 }
