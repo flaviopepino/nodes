@@ -11,6 +11,8 @@ pipeline {
     stage('teste'){
       steps {
         sh 'whoami'
+      }
+      steps {  
         sh 'uname'
       }
     }
